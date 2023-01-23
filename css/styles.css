@@ -1,23 +1,30 @@
-*{
+* {
     /* border: 1px solid red; */
     font-family: 'EB Garamond', serif;
+}
+
+p,
+a,
+.btn {
     font-family: 'Poppins', sans-serif;
 }
 
-.btn-primary-color{
- background-color: #B68C5A;
- color: white;
+.btn-primary-color {
+    background-color: #B68C5A;
+    color: white;
 }
-.btn-primary-color:hover{
+
+.btn-primary-color:hover {
     background-color: #d77d0f;
     color: white;
 }
-.header-content{
+
+.header-content {
     height: 70vh;
     background-size: cover;
-    background-image: url(../images/Rectangle\ 4.png);
+    background-image: url(../images/19.png);
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
-    
+
 }

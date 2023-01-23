@@ -21,13 +21,13 @@
 </head>
 
 <body>
-    <header class="mt-4 container">
+    <header class="mt-4 container mb-5">
 
         <!-- Nav Bar -->
 
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg mb-5 ">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="images/Group 2.png" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="images/8.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -56,46 +56,122 @@
 
                         <button type="button" class="btn btn-primary-color" data-bs-toggle="modal"
                             data-bs-target="#exampleModal" data-bs-whatever="@mdo">Free Consultation</button>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <form>
-                                                <div class="mb-3">
-                                                    <label for="email" class="col-form-label">Email:</label>
-                                                    <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
-                                                </div>
-                                                <div class="mb-3">
-                                                    <label for="message-text" class="col-form-label">Message:</label>
-                                                    <textarea class="form-control" id="message-text" placeholder="Type your message " ></textarea>
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-success">Send</button>
-                                        </div>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="email" class="col-form-label">Email:</label>
+                                                <input type="email" class="form-control" id="email"
+                                                    placeholder="example@gmail.com">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="message-text" class="col-form-label">Message:</label>
+                                                <textarea class="form-control" id="message-text"
+                                                    placeholder="Type your message "></textarea>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-success">Send</button>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                     </form>
                 </div>
             </div>
         </nav>
 
         <!-- Header content -->
-        <div class="container text-white d-flex flex-column justify-content-center align-items-center header-content">
-            
-            <h1 class="text-center">We Provide Effective <br> Legal Solutions</h1>
-            <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <div
+            class="container text-white d-flex flex-column justify-content-center align-items-center header-content rounded-3">
+
+            <div class="w-50">
+                <h1 class="text-center fw-bolder fs-1">We Provide Effective <br> Legal Solutions</h1>
+                <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority
+                    have
+                    suffered alteration in some form, by injected humour.
+                </p>
+            </div>
+
+            <div class="input-group mb-3 w-50">
+                <input type="text" class="form-control me-3 rounded-2" placeholder="Search your services"
+                    aria-label="Search your services" aria-describedby="button-addon2">
+                <button class="btn btn-primary-color fw-bold rounded-2" type="button" id="button-addon2">Search</button>
+            </div>
+
+
+
 
         </div>
-        
+
     </header>
+
+
+    <main>
+        <!-- Legal Practice Area Section -->
+
+        <section class="container">
+            <h2 class="text-center fw-bolder fs-1 mb-3">The Legal Practice Area</h2>
+            <p class="text-center mx-auto mb-3 w-50">There are many variations of passages of Lorem Ipsum available, but
+                the majority have suffered alteration in some form, by injected humour.</p>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 p-3">
+                <div class="col text-center p-5  border-bottom ">
+                    <img class="mb-4" src="images/9.png" alt="">
+                    <h3 class="mb-4 fw-bold fs-2">Business Law</h3>
+                    <p class="mb-4">There are many variations of passages of Lorem Ipsum available, but the majority
+                        have suffered alteration in some form, by injected humour.</p>
+                    <img src="images/5.png" alt="">
+                </div>
+                <div class="col text-center p-5 border border-top-0 bg-body-tertiary">
+                    <img class="mb-4" src="images/11.png" alt="">
+                    <h3 class="mb-4 fw-bold fs-2">Criminal Law</h3>
+                    <p class="mb-4">There are many variations of passages of Lorem Ipsum available, but the majority
+                        have suffered alteration in some form, by injected humour.</p>
+                    <img src="images/5.png" alt="">
+                </div>
+                <div class="col text-center p-5 border-bottom">
+                    <img class="mb-4" src="images/17.png" alt="">
+                    <h3 class="mb-4 fw-bold fs-2">Child Support</h3>
+                    <p class="mb-4">There are many variations of passages of Lorem Ipsum available, but the majority
+                        have suffered alteration in some form, by injected humour.</p>
+                    <img src="images/5.png" alt="">
+                </div>
+                <div class="col text-center p-5">
+                    <img class="mb-4" src="images/10.png" alt="">
+                    <h3 class="mb-4 fw-bold fs-2">Education Law</h3>
+                    <p class="mb-4">There are many variations of passages of Lorem Ipsum available, but the majority
+                        have suffered alteration in some form, by injected humour.</p>
+                    <img src="images/5.png" alt="">
+                </div>
+                <div class="col text-center p-5 border border-bottom-0 border-top-0">
+                    <img class="mb-4" src="images/12.png" alt="">
+                    <h3 class="mb-4 fw-bold fs-2">Divorce Law</h3>
+                    <p class="mb-4">There are many variations of passages of Lorem Ipsum available, but the majority
+                        have suffered alteration in some form, by injected humour.</p>
+                    <img src="images/5.png" alt="">
+                </div>
+                <div class="col text-center p-5">
+                    <img class="mb-4" src="images/7.png" alt="">
+                    <h3 class="mb-4 fw-bold fs-2">Tax Law</h3>
+                    <p class="mb-4">There are many variations of passages of Lorem Ipsum available, but the majority
+                        have suffered alteration in some form, by injected humour.</p>
+                    <img src="images/5.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
 
 
 
